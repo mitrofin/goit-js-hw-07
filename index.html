@@ -66,7 +66,7 @@
     <!-- task-5 -->
 
     <h3>Задание 5</h3>
-    <div id="counter">
+    <div id="input">
       <input type="text" placeholder="Ваше имя?" id="name-input" />
       <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
     </div>
@@ -86,17 +86,19 @@
     <!-- task-7 -->
 
     <h3>Задание 7</h3>
-    <div id="counter">
+    <div id="input">
       <input id="font-size-control" type="range" />
       <br />
       <span id="text">Абракадабра!</span>
     </div>
 
     <!-- task-8 -->
+    <h3>Задание 8</h3>
     <div id="controls">
-      <input type="number" min="0" max="100" step="1" />
-      <button type="button" data-action="render">Создать</button>
-      <button type="button" data-action="destroy">Очистить</button>
+      
+      <button  class =button-left type="button" data-action="render">Создать</button>
+      <input type="number" min="0" max="100" step="1" placeholder="!" />
+      <button class =button-right type="button" data-action="destroy">Очистить</button>
     </div>
     
     <div id="boxes"></div>
@@ -106,10 +108,10 @@
     <script src="./task-1.js " type="module"></script>
     <script src="./task-2.js " type="module"></script>
     <script src="./task-3.js " type="module"></script>
-    <script src="./task-4.js " type="module"></script>
+    <!-- <script src="./task-4.js " type="module"></script>
     <script src="./task-5.js " type="module"></script>
     <script src="./task-6.js " type="module"></script>
     <script src="./task-7.js " type="module"></script>
-    <script src="./task-8.js " type="module"></script>
+    <script src="./task-8.js " type="module"></script> -->
   </body>
 </html>

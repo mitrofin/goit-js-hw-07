@@ -23,4 +23,3 @@ const makeItemGallery = (images) => {
 const makeItemsGallery = images.map(makeItemGallery).join('');
 galleryRef.insertAdjacentHTML("beforeend",makeItemsGallery);
 
-console.log(makeItemsGallery);

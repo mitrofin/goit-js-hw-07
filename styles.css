@@ -70,9 +70,9 @@ button {
 
 span {
   color: rgb(26, 15, 10);
-  font-size: 54px;
+  font-size: 44px;
   font-weight: 900;
-  margin: auto 30px;
+  margin: auto 20px;
 }
 #name-input {
   text-align: center;
@@ -88,7 +88,7 @@ span {
 #validation-input {
   border: 5px solid #bdbdbd;
   text-align: center;
-  margin-top: 28px;
+  margin: 20px;
   padding: 11px 16px;
   width: 30%;
   border-radius: 3px;

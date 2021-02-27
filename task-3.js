@@ -23,3 +23,10 @@ const makeItemGallery = (images) => {
 const makeItemsGallery = images.map(makeItemGallery).join('');
 galleryRef.insertAdjacentHTML("beforeend",makeItemsGallery);
 
+
+const createTitle = () => {
+    const title = document.createElement('h3');
+    title.textContent = ('Задание 3');
+    galleryRef.before(title);
+};
+createTitle();

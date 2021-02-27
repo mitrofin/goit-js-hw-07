@@ -12,5 +12,16 @@ const listOfItem = ingredients.map(ingredient => {
     return liItem;
     
 });
-const listRef = document.querySelector('#ingredients')
-    .append(...listOfItem);
+const listRef = document.querySelector('#ingredients');
+
+const appendItems = () => { 
+  listRef.append(...listOfItem);
+};
+appendItems();
+ 
+const createTitle = () => {
+    const title = document.createElement('h3');
+    title.textContent = ('Задание 2');
+    listRef.before(title);
+};
+createTitle();    
